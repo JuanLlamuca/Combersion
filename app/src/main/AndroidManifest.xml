@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Combersion"
         tools:targetApi="31">
         <activity
+            android:name=".Euros"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
